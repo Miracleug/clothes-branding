@@ -1,0 +1,175 @@
+body{
+    background-color: aliceblue;
+    font-family: sans-serif, Arial,;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+h1:hover{
+    background-color: dimgrey;
+    border-radius: 3px;
+}
+
+.nav{
+   word-spacing: 5px;
+   text-align: right;
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 20px;
+
+}
+
+.Brands{
+    background-image: url(img/ug.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.Sign{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: dimgray;
+}
+
+.Sign:hover{
+    background-color:dimgrey;
+}
+
+.Log{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    border: dimgrey;
+}
+
+.Log:hover{
+    background-color: dimgrey;
+}
+
+.Shop{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-top: 20px;
+}
+
+.stock{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.stock img{
+    width: 300px;
+    height: 200px;
+    scroll-snap-align: center;
+    border-radius: 5px;
+}
+
+.White{
+    margin-left: 20px;
+}
+
+.shirt{
+    margin-left: 20px;
+}
+
+.Black{
+    margin-left: 20px;
+}
+
+.Girl{
+    margin-left: 20px;
+}
+
+.nike{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: sans-serif, arial;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.Hoodies{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 7rem;
+    
+    
+}
+
+.Tank{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tank a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 0;
+    font-size: 20px;
+    display: block;
+}
+
+.sports{
+    font-size: 20px;
+}
+
+.policy{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.terms{
+    margin-top: 16px;
+}
+
+.terms a{
+    text-decoration: none;
+    color: gray;
+}
+
+.copy{
+    color: gray;
+}
+
+
